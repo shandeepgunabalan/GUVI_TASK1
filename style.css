@@ -1,0 +1,28 @@
+/* Star Rating Styles */
+.star-rating {
+    display: flex;
+    direction: row-reverse;
+    font-size: 24px;
+    unicode-bidi: bidi-override;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #ddd;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+    color: #ffc107;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffc107;
+}
