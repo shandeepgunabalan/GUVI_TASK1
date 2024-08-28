@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layot</title>
+    <style>
+        table {
+            width: auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th,td{
+            padding: 5px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        th{
+            font-weight: bold;
+        }
+        td[colspan="2"]{
+            text-align: left;
+        }
+        
+        </style>
+        </head>
+        <body>
+            <table>
+                <tr>
+                    <th>Customer</th>
+                    <th colspan="2">Items</th>
+                    <th colspan="2">Payments</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Customer Name</td>
+                        <td>Item 1</td>
+                        <td>5</td>
+                        <td>12 Sep 2018</td>
+                        <td>$3,000.00</td>
+                        </tr>
+                        <tr>
+                        <td>Item 2</td>
+                        <td>10</td>
+                        <td rowspan="2">18 Sep 2018</td>
+                        <td rowspan="2">$2,000.00</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3</td>
+                            <td>2</td>
+                            </tr>
+            </table>
+            </body>
+            </html>

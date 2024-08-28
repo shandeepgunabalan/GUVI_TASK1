@@ -1,0 +1,98 @@
+body{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 236px;
+    width: 710px;
+   /* background-color:red;*/
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.leftbox{
+    height: 226px;
+    width: 49%;
+   /* background: chartreuse;*/
+    margin-left: 5px;
+    
+    }
+    .rightbox{
+        height: 226px;
+        width: 49%;
+        /*background: rgb(65, 78, 53);*/
+        margin-left: 5px;
+        }
+        .header{
+          /*  background: crimson;*/
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 35px;
+        }
+        .lion{
+            height: 35px;
+        margin: 2px 5px 5px 42px;
+        }
+        .gov{
+            height: 30px;
+    
+            margin: 3px 0px 0px 26px;
+    
+        }
+        .badypart{
+            height: 165px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+           /* background: cyan;*/
+
+        }
+        .pic{
+            /*background: darkgray;*/
+            height: 100px;
+            width: 100px;
+        }
+        .ifo{
+           /* background: rgb(59, 24, 24);*/
+            height: 100px;
+            width: 170px;
+        }
+        .qr{
+           /* background: rgb(81, 10, 99);*/
+            height: 100px;
+            width: 77px;
+            font-size: 12px;
+        }
+        .footer{
+           /* background: darkkhaki;*/
+            height: 27px;
+            width: 100%;
+            border-top: tomato 2px solid;
+
+        }
+        .photo{
+            height: 110px;
+           margin-left: 10px;
+           margin-top: 5px;
+        }
+        .qr{
+            height: 60px;
+            width: 60px;
+            margin: 50px 0px 0px 6px;
+           /* margin-top: 50px;
+            margin-right: 12px;*/
+        }
+        .ADNO{
+            margin: 15px 0px 0px 0px;
+            display: flex;
+            justify-content: center;
+            letter-spacing: 2px;
+            padding-top: 10px;
+        }
+        .para{
+             text-align: center;
+             margin-top: 3px;
+        }
